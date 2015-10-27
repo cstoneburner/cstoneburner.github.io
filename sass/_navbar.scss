@@ -1,0 +1,95 @@
+@import "colors";
+
+.navbar-default {
+    border-color: transparent;
+    background-color: $dk-main;box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+-moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+-webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+}
+
+.navbar-default .navbar-brand {
+    font-family: "proximaNova";
+    color: $lt-main;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: $contrast;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: $contrast;
+    background-color: $contrast;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $dk-main;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #439fac;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "proximaNova";
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: $off-white;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: $lt-contrast;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: $contrast;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: $contrast;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        // padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: $dk-main;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
