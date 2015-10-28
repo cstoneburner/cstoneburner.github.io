@@ -19,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
@@ -73,7 +73,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: $lt-main;
+    background-color: lighten($dk-main, 75%);
 }
 
 .bg-darkest-gray {
@@ -172,12 +172,15 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700px;
 }
 
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    padding-bottom: 15px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -185,6 +188,8 @@ section h3.section-subheading {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    border: 20px ridge $dk-main;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -227,20 +232,22 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: lighten($dk-main, 75%);
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
     font-weight: bold;
+    font-size: 24px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "proximaNova";
-    font-size: 16px;
-    font-style: italic;
+    font-size: 20px;
+    color: black;
+    // font-style: italic;
 }
 
 #portfolio * {
@@ -496,4 +503,20 @@ body {
 .wreath {
     width: 360px;
     margin-bottom: 50px;
+}
+
+#portfolio .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-times {
+    color: black;
+}
+
+#portfolio h4 {
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+    text-transform: none;
 }
