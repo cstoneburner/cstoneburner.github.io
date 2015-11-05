@@ -5,9 +5,15 @@
     src: url("../fonts/proxima-nova-thin.otf");
 }
 
+@font-face {
+    font-family: 'Great Vibes', Helvetica, sans-serif;
+    src: url("../fonts/GreatVibes-Regular.otf");
+}
+
 body {
     overflow-x: hidden;
-    font-family: "proximaNova"
+    font-family: "proximaNova";
+    font-size: 16px;
 }
 
 .text-muted {
@@ -47,9 +53,10 @@ a.active {
 }
 
 h1 {
-  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font: 400 1.5em/0.93 'Great Vibes', Helvetica, sans-serif;
   color: $off-white;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  margin-top: -16px;
 }
 
 h2 {
@@ -98,8 +105,10 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 85px;
     padding-bottom: 50px;
+    transform: rotate(-3deg);
+    font-size: 1.2em;
 }
 
 header .intro-text .intro-lead-in {
@@ -181,15 +190,20 @@ section h3.section-subheading {
     right: 0;
     margin: 0 0 15px;
     padding-bottom: 15px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
-    border: 20px ridge $dk-main;
+    border: 9px ridge $dk-main;
 
+
+}
+
+.portfolio-mobile {
+    max-width: 380px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -290,6 +304,8 @@ section#contact {
     background-image: url(../img/coffee.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 section#contact .section-heading {
@@ -496,19 +512,16 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #439fac;
-}
+// body {
+//     webkit-tap-highlight-color: #439fac;
+// }
 
 .wreath {
     width: 360px;
     margin-bottom: 50px;
 }
 
-#portfolio .row {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .fa-times {
     color: black;
@@ -519,4 +532,18 @@ body {
     font-weight: 700px;
     text-align: center;
     text-transform: none;
+}
+
+// .container {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     justify-content: space-around;
+// }
+
+.modal-items {
+
+}
+
+.img-mobile {
+    max-width: 400px;
 }

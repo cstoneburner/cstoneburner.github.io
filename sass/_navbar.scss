@@ -29,12 +29,12 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: $dk-main;
+    background-color: $lt-contrast;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #439fac;
+    background-color: $lt-contrast;
 }
 
 .navbar-default .nav li a {
