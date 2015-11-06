@@ -373,10 +373,10 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
-footer {
-    padding: 25px 0;
-    text-align: center;
-}
+// footer {
+//     padding: 25px 0;
+// //        text-align: right;
+// }
 
 footer span.copyright {
     text-transform: uppercase;
@@ -573,11 +573,16 @@ img::-moz-selection {
         margin-top: 40px;
 }
 
-.footer-below {
-    background-color: $dk-main;
-    color: #fff;
-}
+// .footer-below {
+//     background-color: $dk-main;
+//     color: #fff;
+// }
 
 #contact {
     color: #fff;
+}
+
+footer {
+    color: $contrast;
+
 }

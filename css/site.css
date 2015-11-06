@@ -289,10 +289,6 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c; }
 
-footer {
-  padding: 25px 0;
-  text-align: center; }
-
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
@@ -443,12 +439,11 @@ img::-moz-selection {
 #contact.list-inline {
   margin-top: 40px; }
 
-.footer-below {
-  background-color: #232127;
-  color: #fff; }
-
 #contact {
   color: #fff; }
+
+footer {
+  color: #76647A; }
 
 .btn-primary:hover,
 .btn-primary:focus,
