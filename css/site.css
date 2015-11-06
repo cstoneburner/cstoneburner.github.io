@@ -10,7 +10,7 @@ body {
   font-size: 16px; }
 
 .text-muted {
-  color: #737373; }
+  color: #aba7b4; }
 
 .text-primary {
   color: #76647A; }
@@ -30,13 +30,13 @@ a.active {
   outline: 0; }
 
 a {
-  color: #766B4F; }
+  color: #dcd7de; }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #766B4F; }
+  color: #dcd7de; }
 
 h1 {
   font: 400 1.5em/0.93 'Great Vibes', Helvetica, sans-serif;
@@ -70,7 +70,6 @@ header {
   text-align: center;
   color: #FEFFFE;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -78,7 +77,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed;
-  opacity: .9; }
+  background: linear-gradient(to bottom left, rgba(35, 33, 39, 0.1), rgba(35, 33, 39, 0.8)), url(../img/header-bg.jpg); }
 
 header .intro-text {
   padding-top: 85px;
@@ -97,7 +96,7 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
   /*    text-transform: uppercase;*/
   font-family: "proximaNova";
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 700;
   line-height: 50px; }
 
@@ -127,7 +126,7 @@ section {
 section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
-  font-size: 85px; }
+  font-size: 63px; }
 
 section h3.section-subheading {
   margin-bottom: 75px;
@@ -155,7 +154,10 @@ section h3.section-subheading {
   display: block;
   position: relative;
   margin: 0 auto;
-  border: 9px ridge #232127; }
+  border: 1px ridge #aba7b4;
+  box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4);
+  -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34, 25, 25, 0.4); }
 
 .portfolio-mobile {
   max-width: 380px; }
@@ -235,12 +237,10 @@ aside.clients img {
   margin: 50px auto; }
 
 section#contact {
-  background-color: #222;
-  background-image: url(../img/coffee.jpg);
-  background-position: center;
+  background-color: #232127;
+  background: linear-gradient(rgba(35, 33, 39, 0.7), rgba(35, 33, 39, 0.7)), url(../img/coffee.jpg);
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 
 section#contact .section-heading {
   color: #fff; }
@@ -326,7 +326,10 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #439fac; }
+  background-color: #dcd7de; }
+
+ul {
+  list-style-type: none; }
 
 .btn:focus,
 .btn:active,
@@ -414,8 +417,9 @@ img::-moz-selection {
   background: 0 0; }
 
 .wreath {
-  width: 360px;
-  margin-bottom: 50px; }
+  width: 110px;
+  margin-bottom: 40px;
+  margin-top: 40px; }
 
 .fa-times {
   color: black; }
@@ -429,14 +433,31 @@ img::-moz-selection {
 .img-mobile {
   max-width: 400px; }
 
+.img-border {
+  border: 1px solid #232127; }
+
+.btn-social {
+  color: #fff;
+  font-size: 1.5em; }
+
+#contact.list-inline {
+  margin-top: 40px; }
+
+.footer-below {
+  background-color: #232127;
+  color: #fff; }
+
+#contact {
+  color: #fff; }
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #f6bf01;
+  border-color: #dcd7de;
   color: #fff;
-  background-color: #fec503; }
+  background-color: #dcd7de; }
 
 .btn-primary:active,
 .btn-primary.active,
@@ -458,32 +479,32 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #439fac;
-  background-color: #439fac; }
+  border-color: #76647A;
+  background-color: #76647A; }
 
 .btn-primary .badge {
-  color: #439fac;
+  color: #dcd7de;
   background-color: #fff; }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #439fac;
+  border-color: #76647A;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: "proximaNova";
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  background-color: #439fac; }
+  background-color: #76647A; }
 
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  border-color: #f6bf01;
+  border-color: #dcd7de;
   color: #fff;
-  background-color: #fec503; }
+  background-color: #lt-contrast; }
 
 .btn-xl:active,
 .btn-xl.active,
@@ -505,20 +526,20 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #439fac;
-  background-color: #439fac; }
+  border-color: #76647A;
+  background-color: #76647A; }
 
 .btn-xl .badge {
   color: #439fac;
   background-color: #fff; }
 
 .btn-primary {
-  border-color: #439fac;
+  border-color: #76647A;
   text-transform: uppercase;
   font-family: "proximaNova";
   font-weight: 700;
   color: #fff;
-  background-color: #439fac; }
+  background-color: #76647A; }
 
 .hvr-grow-rotate {
   display: inline-block;
@@ -543,7 +564,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
   font-family: "proximaNova";
-  color: #737373; }
+  color: #aba7b4; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -737,15 +758,14 @@ fieldset[disabled] .btn-xl.active {
     text-align: left; } }
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 150px; }
+    min-height: 100px; }
 
   .timeline > li .timeline-panel {
     padding: 0 20px 20px; }
 
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px; }
+    width: 100px;
+    height: 100px; }
 
   .timeline > li .timeline-image h4 {
     margin-top: 30px;
@@ -756,15 +776,14 @@ fieldset[disabled] .btn-xl.active {
     padding: 0 20px 20px; } }
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px; }
+    min-height: 100px; }
 
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px; }
 
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px; }
+    width: 100px;
+    height: 100px; }
 
   .timeline > li .timeline-image h4 {
     margin-top: 40px; }

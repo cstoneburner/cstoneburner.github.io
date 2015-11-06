@@ -5,9 +5,9 @@
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: $lt-contrast;
     color: #fff;
-    background-color: #fec503;
+    background-color: $lt-contrast;
 }
 
 .btn-primary:active,
@@ -31,25 +31,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #439fac;
-    background-color: #439fac;
+    border-color: $contrast;
+    background-color: $contrast;
 }
 
 .btn-primary .badge {
-    color: #439fac;
+    color: $lt-contrast;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #439fac;
+    border-color: $contrast;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "proximaNova";
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #439fac;
+    background-color: $contrast;
 }
 
 .btn-xl:hover,
@@ -57,9 +57,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: $lt-contrast;
     color: #fff;
-    background-color: #fec503;
+    background-color: #lt-contrast;
 }
 
 .btn-xl:active,
@@ -83,8 +83,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #439fac;
-    background-color: #439fac;
+    border-color: $contrast;
+    background-color: $contrast;
 }
 
 .btn-xl .badge {
@@ -94,12 +94,12 @@ fieldset[disabled] .btn-xl.active {
 
 
 .btn-primary {
-    border-color: #439fac;
+    border-color: $contrast;
     text-transform: uppercase;
     font-family: "proximaNova";
     font-weight: 700;
     color: #fff;
-    background-color: #439fac;
+    background-color: $contrast;
 }
 
 .hvr-grow-rotate {
