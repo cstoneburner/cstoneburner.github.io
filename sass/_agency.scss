@@ -126,7 +126,7 @@ header .intro-text .intro-heading {
     font-size: 65px;
     font-weight: 700;
     line-height: 50px;
-
+    padding-top: 40px;
 }
 
 @media(min-width:768px) {
@@ -150,7 +150,7 @@ header .intro-text .intro-heading {
         font-family: "proximaNova";
         font-size: 75px;
         font-weight: 700;
-        line-height: 75px;
+
     }
 }
 
@@ -307,7 +307,7 @@ section#contact {
     background-color: $dk-main;
     // background-image: url(../img/coffee.jpg);
     // background-position: center;
-    background: linear-gradient(rgba(35, 33, 39, 0.7), rgba(35, 33, 39, 0.7)), url(../img/coffee.jpg);
+    background: linear-gradient(rgba(35, 33, 39, 0.7), rgba(35, 33, 39, 0.9)), url(../img/coffee.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -528,7 +528,7 @@ img::-moz-selection {
 
 .wreath {
     width: 110px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     margin-top: 40px;
 }
 
@@ -585,4 +585,13 @@ img::-moz-selection {
 footer {
     color: $contrast;
 
+}
+
+.modal-body a {
+  color: $dk-main
+}
+
+#services p.text-muted {
+  width: 200px;
+  margin: 0 auto;
 }
