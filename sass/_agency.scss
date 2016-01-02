@@ -42,7 +42,7 @@ a.active {
 }
 
 a {
-    color: $lt-contrast;
+    color: $contrast;
 }
 
 a:hover,
@@ -60,9 +60,9 @@ h1 {
 }
 
 h2 {
-  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
-  color: $dk-main;
-  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: $dk-main;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
 h3,
@@ -561,7 +561,7 @@ img::-moz-selection {
 }
 
 #contact.list-inline {
-        margin-top: 40px;
+    margin-top: 40px;
 }
 
 // .footer-below {
@@ -579,12 +579,12 @@ footer {
 }
 
 .modal-body a {
-  color: $dk-main;
+    color: $dk-main;
 }
 
 #services p.text-muted {
-  width: 200px;
-  margin: 0 auto;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .copyright {
@@ -592,29 +592,29 @@ footer {
 }
 
 #events li {
-  font-size: 1.2em;
-  margin-bottom: 1em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 #events li h5 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #events ul {
-  padding-left: 0px;
+    padding-left: 0px;
 }
 
 #events h4.service-heading {
-  text-transform: uppercase;
-  font-size: 2em;
-  margin-top: 2.5em;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 2.5em;
 }
 
 #events a {
-  color: $contrast;
+    color: $contrast;
 }
 
 #events h3 {
-  margin-top: 32px;
+    margin-top: 32px;
 }
