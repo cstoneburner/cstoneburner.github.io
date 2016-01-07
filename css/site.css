@@ -443,7 +443,8 @@ footer {
 
 #services p.text-muted {
   width: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 30px; }
 
 .copyright {
   text-align: right; }
@@ -683,7 +684,7 @@ fieldset[disabled] .btn-xl.active {
   float: right;
   position: relative;
   width: 100%;
-  padding: 0 20px 0 100px;
+  padding: 30px 20px 30px 100px;
   text-align: left; }
 
 .timeline > li .timeline-panel:before {
