@@ -420,7 +420,7 @@ img::-moz-selection {
   text-transform: none; }
 
 .img-mobile {
-  max-width: 400px; }
+  max-width: 300px; }
 
 .img-border {
   border: 1px solid #232127; }
