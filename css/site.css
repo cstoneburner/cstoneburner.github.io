@@ -55,7 +55,8 @@ h5,
 h6 {
   text-transform: uppercase;
   font-family: "proximaNova";
-  font-weight: 300; }
+  font-weight: 300;
+  text-decoration: none; }
 
 .img-centered {
   margin: 0 auto; }
@@ -657,6 +658,10 @@ fieldset[disabled] .btn-xl.active {
   padding: 0;
   list-style: none; }
 
+h4#download,
+:hover {
+  text-decoration: none; }
+
 .timeline:before {
   content: "";
   position: absolute;
@@ -715,7 +720,11 @@ fieldset[disabled] .btn-xl.active {
 .timeline > li .timeline-image h4 {
   margin-top: 12px;
   font-size: 10px;
-  line-height: 14px; }
+  line-height: 14px;
+  color: white;
+  padding-top: 8px;
+  font-weight: bolder;
+  text-decoration: none; }
 
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -768,9 +777,10 @@ fieldset[disabled] .btn-xl.active {
     margin-left: -50px; }
 
   .timeline > li .timeline-image h4 {
-    margin-top: 16px;
     font-size: 13px;
-    line-height: 18px; }
+    line-height: 18px;
+    color: white;
+    padding-top: 15px; }
 
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -788,9 +798,9 @@ fieldset[disabled] .btn-xl.active {
     height: 100px; }
 
   .timeline > li .timeline-image h4 {
-    margin-top: 30px;
-    font-size: 18px;
-    line-height: 26px; }
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 18px; }
 
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px; } }
@@ -804,9 +814,6 @@ fieldset[disabled] .btn-xl.active {
   .timeline > li .timeline-image {
     width: 100px;
     height: 100px; }
-
-  .timeline > li .timeline-image h4 {
-    margin-top: 40px; }
 
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px; } }
