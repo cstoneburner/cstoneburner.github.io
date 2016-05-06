@@ -563,10 +563,11 @@ img::-moz-selection {
     margin-top: 40px;
 }
 
-// .footer-below {
-//     background-color: $dk-main;
-//     color: #fff;
-// }
+.footer-below {
+    background-color: $dk-main;
+    color: $lt-main;
+    font-size: 12px;
+}
 
 #contact {
     color: #fff;
@@ -619,4 +620,15 @@ footer {
     margin-top: 32px;
 }
 
+ul {
+  padding: 0;
+  list-style-type: none;
+}
 
+#services .fa-fw {
+  color: $contrast;
+}
+
+.portfolio-link {
+  width: 699px;
+}

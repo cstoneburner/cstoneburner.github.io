@@ -433,6 +433,11 @@ img::-moz-selection {
 #contact.list-inline {
   margin-top: 40px; }
 
+.footer-below {
+  background-color: #232127;
+  color: #aba7b4;
+  font-size: 12px; }
+
 #contact {
   color: #fff; }
 
@@ -471,6 +476,16 @@ footer {
 
 #events h3 {
   margin-top: 32px; }
+
+ul {
+  padding: 0;
+  list-style-type: none; }
+
+#services .fa-fw {
+  color: #76647A; }
+
+.portfolio-link {
+  width: 699px; }
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -659,7 +674,7 @@ fieldset[disabled] .btn-xl.active {
   list-style: none; }
 
 h4#download,
-:hover {
+a:hover {
   text-decoration: none; }
 
 .timeline:before {
