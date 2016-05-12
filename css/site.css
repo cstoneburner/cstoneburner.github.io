@@ -478,14 +478,19 @@ footer {
   margin-top: 32px; }
 
 ul {
-  padding: 0;
+  padding-left: 0px;
   list-style-type: none; }
 
 #services .fa-fw {
   color: #76647A; }
 
-.portfolio-link {
-  width: 699px; }
+.edswap-logo {
+  width: 300px;
+  border: none; }
+
+.cabec-logo {
+  width: 550px;
+  border: none; }
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -674,7 +679,7 @@ fieldset[disabled] .btn-xl.active {
   list-style: none; }
 
 h4#download,
-a:hover {
+:hover {
   text-decoration: none; }
 
 .timeline:before {

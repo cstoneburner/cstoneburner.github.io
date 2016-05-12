@@ -563,6 +563,10 @@ img::-moz-selection {
     margin-top: 40px;
 }
 
+// .footer-below {
+//     background-color: $dk-main;
+//     color: #fff;
+// }
 .footer-below {
     background-color: $dk-main;
     color: $lt-main;
@@ -620,8 +624,9 @@ footer {
     margin-top: 32px;
 }
 
+
 ul {
-  padding: 0;
+  padding-left: 0px;
   list-style-type: none;
 }
 
@@ -629,6 +634,12 @@ ul {
   color: $contrast;
 }
 
-.portfolio-link {
-  width: 699px;
+.edswap-logo {
+  width: 300px;
+  border: none;
+}
+
+.cabec-logo {
+  width: 550px;
+  border: none;
 }
