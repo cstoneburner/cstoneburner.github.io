@@ -25,6 +25,7 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('#download').click(function() {
-  $('#download').html('Thank You');
-});
+// $('#download').click(function() {
+//   $('#download').hide();
+//   $('#download').html('Thank You');
+// });
