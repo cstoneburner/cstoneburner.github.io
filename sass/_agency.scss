@@ -65,8 +65,20 @@ h2 {
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
-h3,
-h4,
+h3 {
+    font-family: "proximaNova";
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+h4 {
+    font-family: "proximaNova";
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 h5,
 h6 {
     text-transform: uppercase;
@@ -646,4 +658,39 @@ ul {
 
 .nb-mobile {
   max-width: 500px;
+}
+
+.cabec-img {
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border: none;
+}
+
+// .vcenter {
+//     display: inline-block;
+//     vertical-align: middle;
+//     float: none;
+// }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.padding-modal {
+  padding-top: 90px
+}
+
+.full-img {
+  width: 85%;
+}
+
+.cabec-adspot {
+  padding-top: 15px;
+}
+.cabec-welcome {
+  padding-top: 45px;
+}
+
+#portfolioModal9 h4:last-child {
+    padding-bottom: 60px;
 }
