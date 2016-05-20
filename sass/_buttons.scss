@@ -94,12 +94,12 @@ fieldset[disabled] .btn-xl.active {
 
 
 .btn-primary {
-    border-color: $contrast;
+    border-color: $lt-main;
     text-transform: uppercase;
     font-family: "proximaNova";
     font-weight: 700;
     color: #fff;
-    background-color: $contrast;
+    background-color: $lt-main;
 }
 
 .hvr-grow-rotate {

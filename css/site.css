@@ -353,7 +353,7 @@ ul {
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "proximaNova";
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic; }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -499,7 +499,10 @@ ul {
   border: none; }
 
 .nb-mobile {
-  max-width: 500px; }
+  max-width: 400px; }
+
+.mobile-width {
+  max-width: 400px; }
 
 .cabec-img {
   border: none; }
@@ -522,6 +525,9 @@ ul {
 
 #portfolioModal9 h4:last-child {
   padding-bottom: 60px; }
+
+.wig-full {
+  max-width: 720px; }
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -607,12 +613,12 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fff; }
 
 .btn-primary {
-  border-color: #76647A;
+  border-color: #aba7b4;
   text-transform: uppercase;
   font-family: "proximaNova";
   font-weight: 700;
   color: #fff;
-  background-color: #76647A; }
+  background-color: #aba7b4; }
 
 .hvr-grow-rotate {
   display: inline-block;

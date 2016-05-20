@@ -453,7 +453,7 @@ list-style-type: none;
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "proximaNova";
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -649,6 +649,7 @@ ul {
 .edswap-logo {
   width: 300px;
   border: none;
+  // padding-top: 80px;
 }
 
 .cabec-logo {
@@ -657,7 +658,11 @@ ul {
 }
 
 .nb-mobile {
-  max-width: 500px;
+  max-width: 400px;
+}
+
+.mobile-width {
+  max-width: 400px;
 }
 
 .cabec-img {
@@ -693,4 +698,8 @@ ul {
 
 #portfolioModal9 h4:last-child {
     padding-bottom: 60px;
+}
+
+.wig-full {
+  max-width: 720px;
 }
