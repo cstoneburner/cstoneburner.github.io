@@ -498,12 +498,6 @@ ul {
   width: 550px;
   border: none; }
 
-.nb-mobile {
-  max-width: 400px; }
-
-.mobile-width {
-  max-width: 400px; }
-
 .cabec-img {
   border: none; }
 
@@ -526,8 +520,8 @@ ul {
 #portfolioModal9 h4:last-child {
   padding-bottom: 60px; }
 
-.wig-full {
-  max-width: 720px; }
+.img-mobile {
+  width: 70%; }
 
 .btn-primary:hover,
 .btn-primary:focus,
