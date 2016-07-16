@@ -1,0 +1,66 @@
+nav .brand-logo {
+    padding-left: 30px;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+.messages_right.card-panel {
+    padding: 0;
+  }
+
+.messages_right h6,
+.messages_right p {
+  padding: 0 20px 0 20px;
+    }
+
+.secondary-content {
+  color: lightgrey;
+}
+
+.card .card-action {
+  padding-left: 110px;
+}
+
+.collection .collection-item.avatar{
+  min-height: auto;
+}
+
+.collection .collection-item.white.avatar {
+  min-height: 36px;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: #ee6e73;
+}
+
+/*center titles on bottom left cards*/
+.card-title {
+  display: table;
+  width: 100%;
+}
+
+.whiteboard .collection.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.whiteboard.col.s12.m7 {
+  padding-right: 0px;
+}
+
+.whiteboard .collection-item.avatar {
+  height: 68px;
+}
+
+/* Fix spacing at bottom of right col */
+ul.collection {
+  margin-bottom: 0px;
+}
+
+.upload-message {
+  height: 62px;
+}
